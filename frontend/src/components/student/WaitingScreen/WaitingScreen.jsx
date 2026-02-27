@@ -9,7 +9,7 @@ const WaitingScreen = () => {
       <div className={styles.content}>
         <div className={styles.intervuePollContainer}>
           <button className={styles.intervuePollBtn}>
-            <span className={styles.sparkleIcon}>✨</span> Intervue Poll
+            Intervue Poll
           </button>
         </div>
 
@@ -24,3 +24,4 @@ const WaitingScreen = () => {
 };
 
 export default WaitingScreen;
+

@@ -53,9 +53,7 @@ const Chat = () => {
         className={styles.chatToggle}
         onClick={toggleChat}
         aria-label="Toggle chat"
-      >
-        💬
-      </button>
+      >Chat</button>
 
       {/* Chat Panel */}
       {isOpen && (

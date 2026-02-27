@@ -80,7 +80,7 @@ const CreatePoll = () => {
       <div className={styles.header}>
         <div className={styles.intervuePollContainer}>
           <button className={styles.intervuePollBtn}>
-            <span className={styles.sparkleIcon}>✨</span> Intervue Poll
+            Intervue Poll
           </button>
         </div>
 
@@ -203,3 +203,4 @@ const CreatePoll = () => {
 };
 
 export default CreatePoll;
+

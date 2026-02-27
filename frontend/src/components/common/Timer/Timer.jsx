@@ -17,7 +17,7 @@ const Timer = ({ timeRemaining }) => {
 
   return (
     <div className={`${styles.timer} ${getTimeClass()}`}>
-      <span className={styles.icon}>⏱</span>
+      <span className={styles.icon}>Time</span>
       <span className={styles.time}>{formatTime(timeRemaining)}</span>
     </div>
   )

@@ -68,7 +68,7 @@ const setupSocket = (server) => {
     });
   });
 
-  logger.info('✅ Socket.io server configured');
+  logger.info('Socket.io server configured');
   return io;
 };
 

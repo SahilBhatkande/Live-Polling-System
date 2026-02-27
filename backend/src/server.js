@@ -22,9 +22,9 @@ async function startServer() {
     
     // Start server
     server.listen(PORT, () => {
-      logger.info(`🚀 Server running on port ${PORT}`);
-      logger.info(`📊 Environment: ${process.env.NODE_ENV}`);
-      logger.info(`🌐 CORS enabled for: ${process.env.CLIENT_URL}`);
+      logger.info(`Server running on port ${PORT}`);
+      logger.info(`Environment: ${process.env.NODE_ENV}`);
+      logger.info(`CORS enabled for: ${process.env.CLIENT_URL}`);
     });
     
     // Graceful shutdown

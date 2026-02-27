@@ -57,7 +57,7 @@ const StudentJoin = () => {
         <div className={styles.welcomeSection}>
           <div className={styles.intervuePollContainer}>
             <button className={styles.intervuePollBtn}>
-              <span className={styles.sparkleIcon}>✨</span> Intervue Poll
+              Intervue Poll
             </button>
           </div>
 
@@ -105,3 +105,4 @@ const StudentJoin = () => {
 };
 
 export default StudentJoin;
+
