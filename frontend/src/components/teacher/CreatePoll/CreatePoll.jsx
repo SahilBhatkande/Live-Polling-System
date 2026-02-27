@@ -112,7 +112,7 @@ const CreatePoll = () => {
           <textarea
             value={question}
             onChange={(e) => setQuestion(e.target.value)}
-            placeholder="what is the capital of India?"
+            placeholder="How much money did Rahul Arora raise on Shark Tank India?"
             className={styles.questionInput}
             rows={4}
             maxLength={500}
