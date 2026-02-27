@@ -54,8 +54,7 @@ const LandingPage = () => {
           >
             <h3 className={styles.roleTitle}>I'm a Student</h3>
             <p className={styles.roleDescription}>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry
+              Answer every poll and see live results as they update.
             </p>
           </div>
           <div
